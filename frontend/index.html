@@ -8,17 +8,60 @@
 
     <!-- LOCAL CSS -->
     <link rel="stylesheet" href="static/css/main.css">
+
+    <!-- NORMALIZER.CSS -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <main>
-        <nav class="nav">
+    <nav class="nav">
+        <header>
+            <div class="nav-header">
+                <img class="nav-img" src="./static/img/js-logo-white.png">
+                <div class="nav-description">
+                    <h2>Portafolio</h2>
+                    <p>José Santilano</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav-menu">
             <ul>
-                <li><a href="/">Sobre mí</a></li>
-                <li><a href="/habilidades">Habilidades</a></li>
-                <li><a href="/proyectos">Proyectos</a></li>
-                <li><a href="/contacto">Contacto</a></li>
+                <a href="/sobre-mi" data-link>
+                    <li>
+                        <i class='bx bxs-user-pin'></i>
+                        <span>Sobre mí</span>
+                    </li>
+                </a>
+                <a href="/habilidades" data-link>
+                    <li>
+                        <i class='bx bxs-bolt-circle'></i>
+                        <span>Habilidades</span>
+                    </li>
+                </a>
+                <a href="proyectos" data-link>
+                    <li>
+                        <i class='bx bxs-keyboard'></i>
+                        <span>Proyectos</span>
+                    </li>
+                </a>
+                <a href="/contacto" data-link>
+                    <li>
+                        <i class='bx bxs-contact'></i>
+                        <span>Contacto</span>
+                    </li>
+                </a>
             </ul>
-        </nav>
-    </main>
+        </div>
+
+        <div class="nav-social">
+            <a href="www.google.com"><i class='bx bxl-github'></i></a>
+            <a href=""><i class='bx bx-link-alt'></i></a>
+            <a href=""><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </nav>
 </body>
 </html>
+

@@ -1,0 +1,90 @@
+/* FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    /* Colors */
+    --nav-color: rgb(10, 10, 10);
+}
+
+
+/*  NAVEGACIÓN */
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 18vw;
+    height: 100vh;
+    background-color: var(--nav-color);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header de la navegación */
+.nav-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-img{
+    width: 35%;
+    padding: 1em;
+}
+.nav-description{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Menú de la navegación */
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-menu li{
+    list-style: none;
+    padding: 0.6em;
+}
+.nav-menu a:hover, li:hover{
+    border-radius: 10px;
+    background-color: rgb(12, 12, 12);
+    color: rgb(2, 133, 194);
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-menu i{ 
+    padding-right: 0.5em;
+}
+   
+/* Medio social de la navegación */
+.nav-social{
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    padding: 1em 0;
+}
+.nav-social a{
+    font-size: 1.9em;
+    color: white;
+}
+.nav-social a:hover{
+    color: rgb(2, 133, 194);
+    box-shadow: none;
+}
