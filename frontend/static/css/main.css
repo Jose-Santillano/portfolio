@@ -19,7 +19,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 18vw;
+    width: 20%;
     height: 100vh;
     background-color: var(--nav-color);
     font-family: 'Poppins', sans-serif;
@@ -87,4 +87,53 @@
 .nav-social a:hover{
     color: rgb(2, 133, 194);
     box-shadow: none;
+}
+
+
+/* CONTENEDOR PRINCIPAL */
+
+.container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    background-color: gray;
+}
+
+
+/* SOBRE MI */
+
+.content-sm{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vector-sm-bottom, .vector-sm-top{
+    position: absolute;
+    width: 20em;
+}
+.vector-sm-top{
+    top: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+.vector-sm-bottom{
+    bottom: 0;
+    left: 0;
+}
+.information-sm{
+    padding: 0em 2em 0em 4em;
+    color: rgb(54, 54, 54);
+    font-size: 1.2em;
+    font-family: 'Poppins';
+    line-height: 1.3em;
+    
+}
+.avatar-sm img{
+    width: 20em;
+    padding: 0em 4em 0em 2em;
+    border-radius: 50%;
+    box-shadow: rgb(10, 10, 10);
 }
