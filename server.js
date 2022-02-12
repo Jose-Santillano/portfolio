@@ -10,9 +10,10 @@ const app = express();
 app.use('/static', express.static(path.resolve(__dirname, 'frontend', 'static')));
 
 //Asignamos la ruta del "index.html".
+//PD: /* significa que toda ruta ira hacia el archivo "index.html".
 app.get('/*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'frontend', 'index.html'));
-})
+});
 
 //Lanzamos el servidor.
 app.listen(process.env.PORT || 3000, () => console.log('Server is working...'));

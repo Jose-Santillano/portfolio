@@ -19,13 +19,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 20%;
+    width: 17em;
     height: 100vh;
     background-color: var(--nav-color);
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Header de la navegación */
@@ -48,24 +49,21 @@
 .nav-menu{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-.nav-menu li{
-    list-style: none;
-    padding: 0.6em;
-}
-.nav-menu a:hover, li:hover{
-    border-radius: 10px;
-    background-color: rgb(12, 12, 12);
+.nav-menu a:hover{
     color: rgb(2, 133, 194);
 }
 .nav-menu a{
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    padding: 0.2em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .nav-menu i{ 
     padding-right: 0.5em;
@@ -167,7 +165,7 @@
 .card-h{
     width: 17em;
     height: 23em;
-    margin: 2em;
+    margin: 1em;
 }
 .card-header-h{
     width: 100%;
