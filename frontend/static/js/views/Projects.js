@@ -14,67 +14,47 @@ export default class extends AbstractView {
                 </div>
                 <header>
                     <h2>Proyectos</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sit odio facilis adipisci voluptatum, sequihic aliquam a, atque magnam mollitia ipsam! Quod, nulla nam. Illum, eveniet.</p>
+                    <p>Este es un pequeño repositorio para mostrar brevemente los proyectos personales y profesionales que he realizado.</p>
                 </header>
                 <div class="projects-p">
                     <div class="card-p">
                         <div class="card-header-p">
-
+                            <img src="./static/img/karelogic.png" class="img-adjust" />
                         </div>
                         <div class="card-body-p">
-                            <h3>Title test</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sed facer.</p>
-                            <a href="https://www.google.com">Demo</a>
+                            <h3>Karelogic</h3>
+                            <p>Proyecto realizado con HTML, CSS y JS. (Tailwind y SASS)</p>
+                            <a href="https://karelogic-test.netlify.app/" target="_blank">Demo</a>
                         </div>
                     </div>
                     <div class="card-p">
                         <div class="card-header-p">
-
+                            <img src="./static/img/hyperprogramming.png" class="img-adjust" />
                         </div>
                         <div class="card-body-p">
-                            <h3>Title test</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sed facer.</p>
-                            <a href="https://www.google.com">Demo</a>
+                            <h3>Hyper Programming</h3>
+                            <p>Proyecto realizado con HTML, CSS y JS. (Tailwind y SASS)</p>
+                            <a href="https://hyperprogramming.netlify.app/" target="_blank">Demo</a>
                         </div>
                     </div>
                     <div class="card-p">
                         <div class="card-header-p">
-
+                            <img src="./static/img/gympredators.png" class="img-adjust" />
                         </div>
                         <div class="card-body-p">
-                            <h3>Title test</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sed facer.</p>
-                            <a href="https://www.google.com">Demo</a>
+                            <h3>Gym Mixto Predators</h3>
+                            <p>Proyecto realizado con HTML, CSS y JS. (Tailwind y SASS)</p>
+                            <a href="https://gymmixtopredators.netlify.app/" target="_blank">Demo</a>
                         </div>
                     </div>
                     <div class="card-p">
                         <div class="card-header-p">
-
+                            <img src="./static/img/login-registro-karelogic.png" class="img-adjust" />
                         </div>
                         <div class="card-body-p">
-                            <h3>Title test</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sed facer.</p>
-                            <a href="https://www.google.com">Demo</a>
-                        </div>
-                    </div>
-                    <div class="card-p">
-                        <div class="card-header-p">
-
-                        </div>
-                        <div class="card-body-p">
-                            <h3>Title test</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sed facer.</p>
-                            <a href="https://www.google.com">Demo</a>
-                        </div>
-                    </div>
-                    <div class="card-p">
-                        <div class="card-header-p">
-
-                        </div>
-                        <div class="card-body-p">
-                            <h3>Title test</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sed facer.</p>
-                            <a href="https://www.google.com">Demo</a>
+                            <h3>Login & Registro de Karelogic</h3>
+                            <p>Proyecto realizado con HTML, CSS y JS, Laravel y MySQL. (Tailwind y SASS). Nota: Es solo la representación visual.</p>
+                            <a href="https://login-register-karelogic-demo.netlify.app/src/login.html" target="_blank">Demo</a>
                         </div>
                     </div>
             </div>

@@ -14,6 +14,7 @@ export default class extends AbstractView{
                 </div>
                 <header>
                     <h2>Habilidades</h2>
+                    <p>Una representación breve de las habilidades que manejo. Sin embargo, he manejado distintos lenguajes como C++, C#, Python, SQL Server, entre otros.</p>
                 </header>
                 <div class="abilities-h">
                     <div class="card-h">
@@ -22,7 +23,6 @@ export default class extends AbstractView{
                         </div>
                         <div class="card-body-h">
                             <h3>HTML</h3>
-                            <p>Nivel: 80%</p>
                         </div>
                     </div>
                     <div class="card-h">
@@ -31,7 +31,6 @@ export default class extends AbstractView{
                         </div>
                         <div class="card-body-h">
                             <h3>CSS</h3>
-                            <p>Nivel: 80%</p>
                         </div>
                     </div>
                     <div class="card-h">
@@ -40,7 +39,6 @@ export default class extends AbstractView{
                         </div>
                         <div class="card-body-h">
                             <h3>JavaScript</h3>
-                            <p>Nivel: 80%</p>
                         </div>
                     </div>
                     <div class="card-h">
@@ -49,7 +47,6 @@ export default class extends AbstractView{
                         </div>
                         <div class="card-body-h">
                             <h3>NodeJs</h3>
-                            <p>Nivel: 80%</p>
                         </div>
                     </div>
                     <div class="card-h">
@@ -58,7 +55,46 @@ export default class extends AbstractView{
                         </div>
                         <div class="card-body-h">
                             <h3>MongoDB</h3>
-                            <p>Nivel: 80%</p>
+                        </div>
+                    </div>
+                    <div class="card-h">
+                        <div class="card-header-h">
+                            <img src="./static/img/laravel.png" alt="Laravel">
+                        </div>
+                        <div class="card-body-h">
+                            <h3>Laravel</h3>
+                        </div>
+                    </div>
+                    <div class="card-h">
+                        <div class="card-header-h">
+                            <img src="./static/img/php.png" alt="PHP">
+                        </div>
+                        <div class="card-body-h">
+                            <h3>PHP</h3>
+                        </div>
+                    </div>
+                    <div class="card-h">
+                        <div class="card-header-h">
+                            <img src="./static/img/mysql.png" alt="MySQL">
+                        </div>
+                        <div class="card-body-h">
+                            <h3>MySQL</h3>
+                        </div>
+                    </div>
+                    <div class="card-h">
+                        <div class="card-header-h">
+                            <img src="./static/img/sass.png" alt="SASS">
+                        </div>
+                        <div class="card-body-h">
+                            <h3>SASS</h3>
+                        </div>
+                    </div>
+                    <div class="card-h">
+                        <div class="card-header-h">
+                            <img src="./static/img/tailwind.png" alt="Tailwind">
+                        </div>
+                        <div class="card-body-h">
+                            <h3>Tailwind</h3>
                         </div>
                     </div>
                 </div>

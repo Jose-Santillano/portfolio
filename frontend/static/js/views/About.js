@@ -19,9 +19,8 @@ export default class extends AbstractView{
                 <div class="information-sm">
                     <h2>José Santillano</h2><br>
                     <p>
-                        Desarrollador web junior enReactJS, NodeJS ySASS , en constante estudio y crecimiento integral en el
-                        ámbito laboral. Dispuesto a trabajar en ambientes grupales donde el trabajo en grupo y la
-                        comunicación es crucial.
+                        Desarrollador web junior en ReactJS, NodeJS y SASS, Laravel, en constante estudio y crecimiento integral en el
+                        ámbito laboral. Dispuesto a trabajar en ambientes grupales y contribuir con mis habilidades informáticas.
                     </p>
                 </div>
                 <div class="avatar-sm">

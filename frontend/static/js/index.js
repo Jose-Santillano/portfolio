@@ -18,7 +18,7 @@ const router = async () => {
         { path: "/", view: About },
         { path: "/habilidades", view: Abilities },
         { path: "/proyectos", view: Projects },
-        { path: "/contacto", view: Contact}
+        { path: "/contacto", view: Contact }
     ];
 
     // Testeo de cada ruta para un emparejamiento potencial.

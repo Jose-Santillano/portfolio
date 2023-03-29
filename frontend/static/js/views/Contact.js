@@ -13,7 +13,8 @@ export default class extends AbstractView {
                     <img src="./static/img/hexagon.png" class="vector-top">
                 </div>
                 <header>
-                    <h3>Contáctame</h3>
+                    <h2>Contáctame</h2>
+                    <p class="description">En mantenimiento...</p>
                 </header>
                 <div class="data-c">
                     <form action="">
